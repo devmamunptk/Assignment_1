@@ -1,40 +1,71 @@
-.main-container{
+/* responsive */
 
-    height: 500px !important;
-    background-color: aqua;
-}
+
+
 @media (max-width: 320px) {
-    .main-container{
-        background-color: blueviolet;
+    .heading {        
+        font-size: 57px;
+        line-height: 62px;
+    }
+    .down-arrow{
+        left: 0px;
+        
     }
 }
 @media (min-width: 321px) and (max-width: 418px) {
-    .main-container{
-        background-color: brown;
+    .heading {        
+        font-size: 57px;
+        line-height: 62px;
     }
+    .down-arrow{
+        left: 0px;
+        
+    }
+
 }
 @media (min-width: 419px) and (max-width: 528px) {
-    .main-container{
-        background-color: red;
+    .heading {        
+        font-size: 57px;
+        line-height: 62px;
+    }
+    .down-arrow{
+        left: 0px;
+        
+    }
+    .about-heading { 
+        font-size: 34px;
+        line-height: 46px;
     }
 }
 @media (min-width: 529px) and (max-width: 768px) {
-    .main-container{
-        background-color: blue;
+    .heading {        
+        font-size: 57px;
+        line-height: 62px;
+    }
+    .down-arrow{
+        left: 0px;
+        
+    }
+
+    .about-heading { 
+        font-size: 44px;
+        line-height: 56px;
     }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
-    .main-container{
-        background-color: orange;
+    .heading {        
+        font-size: 69px;
+        line-height: 77px;
     }
+
+
 }
 @media (min-width: 1025px) and (max-width: 1440px) {
-    .main-container{
-        background-color: yellowgreen;
+    .heading {        
+        font-size: 69px;
+        line-height: 77px;
     }
 }
 @media (min-width: 1920px) {
-    .main-container{
-        background-color: yellow;
-    }
+
 }
