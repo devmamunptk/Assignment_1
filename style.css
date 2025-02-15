@@ -143,7 +143,6 @@ a{
 
 .recent-works{
     background-image: url(assets/doodle\ items.png);
-    height: 1024px;
     padding: 256px 117px;    
 }
 
@@ -159,6 +158,7 @@ a{
 
 
 .bg-thumbnail{
+    width: 33.33%;
     padding: 50px 40px;
     background: rgba(57, 62, 70, 0.5);
     backdrop-filter: blur(2px);
@@ -174,8 +174,8 @@ a{
 /* Got a project in mind? */
 
 .project-works{
-    height: 1024px;
-    padding: 5%;
+    padding-top: 200px !important;
+    padding-bottom: 200px !important;
 }
 
 .project-works-heading{
@@ -201,6 +201,14 @@ a{
     background-color: rgba(57, 62, 70, 0.5);
 
 }
+.form-control{
+    border-color: #1E1E1E;
+}
+.form-control:focus {
+    color: #EEEEEE;
+    background: rgba(57, 62, 70, 0.5);
+}
+
 
 .form-style::placeholder{
     color: rgba(238, 238, 238, 0.5);    

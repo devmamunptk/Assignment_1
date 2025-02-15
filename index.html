@@ -16,30 +16,38 @@
     <header>
 
 
-        <!-- Header Menu Section -->
+        <!-- Header Menu Section -->          
         <section class="container px-5 py-4 border-bottom-new">
-            <div class="d-flex flex-row justify-content-between align-items-center">
-                <a class="navbar-brand" href="#"><img src="assets/SaulDesign.png" alt="logo"></a>
-                <nav class="navbar">
-                    <div class="" id="navbarNav">
-                        <ul class="navbar-nav d-flex flex-row gap-4">
-                          <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
-                          <li class="nav-item"><a class="nav-link" aria-current="page" href="#">About Me</a></li>
-                          <li class="nav-item"><a class="nav-link" aria-current="page" href="#">Contact</a></li>                              
+            <nav class="navbar navbar-expand-lg navbar-nav navbar-dark">
+                <div class="container">
+                    <!-- Brand Name / Logo -->
+                    <a class="navbar-brand" href="#"><img src="assets/SaulDesign.png" alt=""></a>
+            
+                    <!-- Mobile Menu Toggle Button -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+            
+                    <!-- Menu Items -->
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">About Me</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
                         </ul>
-                      </div>                  
-                  </nav>
-            </div>
+                    </div>
+                </div>
+            </nav>
         </section>
     
 
 
         <!-- Header content Section -->
-        <section class="container py-5 arrow">
+        <section class="container px-5 py-5 arrow">
             <div class="row d-flex align-items-center py-5">
-                <div class="col-sm-12 col-lg-6 ps-5">
+                <div class="col-sm-12 col-lg-6">
                     <h2 class="heading">CREATIVE UI <br><span style="color: #00ADB5;">DESIGNER</span></h2>
-                    <div class="pt-5">
+                    <div class="pt-5 d-flex flex-wrap gap-3">
                         <button class="my-btn btn-color" type="button">Hire me</button>
                         <button class="my-btn" type="button"> Download CV  <i class="bi bi-download"></i> </button>
                     </div>
@@ -79,40 +87,40 @@
      <section class="container recent-works">
         <div class="row">
             <h2 class="recent-works-heading">My recent <span style="color: #00ADB5;">works</span></h2>
-            <div class="pt-3 d-flex gap-3">
+            <div class="pt-3 d-flex flex-wrap gap-3">
                 <button class="my-btn btn-color" type="button">All</button>
                 <button class="my-btn" type="button">UI</button>
                 <button class="my-btn" type="button">UX</button>
                 <button class="my-btn" type="button">Web Design</button>
             </div>
 
-            <div class="row d-flex flex-nowrap gap-5 py-5">                
-                <div class="col-4 bg-thumbnail"> <img src="assets/Thumbnail 1.png" alt="Thumbnail" class="img-fluid"> </div>
-                <div class="col-4 bg-thumbnail"> <img src="assets/Thumbnail 2.png" alt="Thumbnail" class="img-fluid"> </div>
-                <div class="col-4 bg-thumbnail"> <img src="assets/Thumbnail 3.png" alt="Thumbnail" class="img-fluid"> </div>
+            <div class="d-flex flex-column flex-lg-row gap-5 pt-4">                
+                <div class="bg-thumbnail"> <img src="assets/Thumbnail 1.png" alt="Thumbnail" class="img-fluid d-block mx-auto"> </div>
+                <div class="bg-thumbnail"> <img src="assets/Thumbnail 2.png" alt="Thumbnail" class="img-fluid d-block mx-auto"> </div>
+                <div class="bg-thumbnail"> <img src="assets/Thumbnail 3.png" alt="Thumbnail" class="img-fluid d-block mx-auto"> </div>
             </div>       
         </div>
      </section>
 
     <!-- Got a project in mind? section -->
-     <section class="container">
-        <div class="row project-works">
-            <div class="col-sm-12 col-lg-6 d-flex flex-column justify-content-center">
+     <section class="container px-sm-1 px-md-5">
+        <div class="row project-works px-5 py-5">
+            <div class="col-sm-12 col-xl-6 d-flex flex-column justify-content-center">
                 <h2 class="project-works-heading">Got a project in <br> <span style="color: #00ADB5;">mind?</span></h2>
-            <div class="pt-3 d-flex gap-3 project-img">
-                <img src="assets/project mind.png" alt="Thumbnail" class="img-fluid">
-            </div>
+                <div class="pt-3 d-flex gap-3 project-img">
+                    <img src="assets/project mind.png" alt="Thumbnail" class="img-fluid">
+                </div>
             </div>
 
-            <div class="col-sm-12 col-lg-6 d-flex flex-column justify-content-center">
+            <div class="col-sm-12 col-xl-6 d-flex flex-column justify-content-center pt-5">
                 <form action="">
-                    <div class="d-flex gap-3">
-                        <div class="w-50">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6">
                             <label for="fname" class="label-style">Your name</label><br>
                             <input type="text" id="fname" name="fname" placeholder="Name" class="form-control form-control-lg rounded form-style "><br>
                         </div>
                     
-                        <div class="w-50">
+                        <div class="col-sm-12 col-md-6">
                             <label for="yemail" class="label-style">Your email</label><br>
                             <input type="email" name="yemail" id="yemail" placeholder="Email" class="form-control form-control-lg rounded form-style "><br>
                         </div>
@@ -136,7 +144,7 @@
 
     <footer class="container" id="footer">
         <div class="footer">
-            <div class="d-flex justify-content-center gap-3 fs-5">
+            <div class="d-flex flex-sm-column flex-md-row justify-content-center gap-3 fs-5">
                 <a href="" class="text-decoration-none"><i class="bi bi-house-door"></i> Home</a>
                 <a href="" class="text-decoration-none"><i class="bi bi-person"></i> About me</a>
                 <a href="" class="text-decoration-none"><i class="bi bi-telephone"></i> Contact</a>
